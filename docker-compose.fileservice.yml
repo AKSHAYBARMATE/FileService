@@ -11,6 +11,7 @@ services:
       - dokploy-network
       - updated_orgadmin_rmscadminnetwork
     environment:
+      JAVA_TOOL_OPTIONS: "-Xmx384m -Xms256m"
       # Server port
       SERVER_PORT: 8091
 
